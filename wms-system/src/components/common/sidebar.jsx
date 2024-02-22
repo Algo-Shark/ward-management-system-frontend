@@ -1,8 +1,9 @@
 import React from 'react'
+import './sidebar.css'
 
 function Sidebar(){
 
-  
+
   return (
     <>
           <div className="sidebar p-2" id="color">
