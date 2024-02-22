@@ -1,0 +1,15 @@
+.list-group a{
+    background-color: #005395;
+    color: white;
+}
+
+.list-group a:hover{
+    background-color: hwb(211 35% 9%);
+    color: white;
+    cursor: pointer;
+}
+.list-group-item1 {
+    display: block;
+    width: 100%; /* Ensures the list items occupy the full width of the container */
+    border: none; /* Optional: Remove default borders */
+}
