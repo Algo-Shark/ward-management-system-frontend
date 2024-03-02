@@ -1,6 +1,15 @@
-function Bed(){
+import React from "react"
+import Image from "../../assets/img/Hospital Room.png"
+import "./Bed.css"
+
+
+function Bed(props){
     return (
-        <h1>hi Bed</h1>
+        <div className="bed-contianer col-5">
+            <img className="img-fluid" width="150px" src={Image} alt="image of the bed"/>
+            <h3>{props.bedNum}</h3>
+            <div className={props.available==="true"?"green":"red"}></div>
+        </div>
     )
 }
 

@@ -1,0 +1,45 @@
+.bed-contianer{
+    margin: 10%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid black;
+    height: 15vw;
+    border-radius: 10px;
+}
+
+
+.green{
+    justify-content: flex-end;
+    background-color: green;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+}
+
+.red{
+    justify-content: flex-end;
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+}
+
+
+@media (max-width:1360px) {
+   .bed-contianer{
+    margin: 10%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid black;
+    height: 20vw;
+    border-radius: 10px;
+   }
+}
