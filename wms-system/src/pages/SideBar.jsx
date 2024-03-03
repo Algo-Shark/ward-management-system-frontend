@@ -6,8 +6,11 @@ import Admission from "../assets/img/icon-admissions.png"
 import Staff from "../assets/img/icon-staff.png"
 import Patients from "../assets/img/icon-patients.png"
 import Wards from "../assets/img/icon-wards.png"
+import  {Link} from "react-router-dom";
 
 export default function SideBar(){
+
+
     return(
         <div className="sidebar-container">
             <img id="logo-sidebar" src={Image} width="80x"/>
@@ -18,7 +21,9 @@ export default function SideBar(){
                     <li className="listedItem"><img src={Admission}/></li>
                     <li className="listedItem"><img src={Staff} width="44px"/></li>
                     <li className="listedItem"><img src={Patients} width="46px"/></li>
-                    <li className="listedItem"><img src={Wards} width="52px"/></li>
+                    <Link to="/wards">
+                        <li className="listedItem"><img src={Wards} width="52px"/></li>
+                    </Link>
                 </ol>
                 </div>
                 

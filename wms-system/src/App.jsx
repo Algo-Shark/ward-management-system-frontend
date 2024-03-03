@@ -10,15 +10,12 @@ function App() {
  
   return (
     <>
-    {/* <BrowserRouter>
+    <BrowserRouter>
       <Routes>
         <Route path='/' element={<Login/>}/> 
-        {/* <Route path='/dashboard' element={<About/>}></Route>
-        <Route path='/vans' element={<Vans/>}></Route>
-        <Route path='vans/:id' element={<VansDetails/>}></Route> */}
-       {/* </Routes>
-    </BrowserRouter>  */}
-      <BedView/>
+        <Route path='/beds' element={<BedView/>}></Route>
+        </Routes>
+    </BrowserRouter> 
     </>
   )
 }
