@@ -1,0 +1,19 @@
+.container-beds{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+
+    height: max-content;
+}
+
+.bedview-container{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width:1360px) {
+    .container-beds{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
