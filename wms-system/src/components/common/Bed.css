@@ -1,14 +1,15 @@
 .bed-contianer{
     margin: 10%;
-    width: 300px;
+    width: 180px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
     border: 2px solid black;
-    height: 15vw;
+    height: 15.8vw;
     border-radius: 10px;
+    font-family: sans-serif;
 }
 
 
@@ -32,7 +33,7 @@
 @media (max-width:1360px) {
    .bed-contianer{
     margin: 10%;
-    width: 300px;
+    width: 180px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,4 +43,8 @@
     height: 20vw;
     border-radius: 10px;
    }
+}
+
+.bed-contianer:hover{
+    background-color: blue;
 }
