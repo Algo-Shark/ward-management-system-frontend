@@ -9,7 +9,8 @@ label{
     font-weight: 400;
 }
 #patRegTitle{
-    color: aliceblue;
+    font-family: sans-serif;
+    color: black;
 }
 #registerBtn{
     background-color: #234DFF;
@@ -20,5 +21,18 @@ label{
     font-weight: 500;
 }
 .regInput{
-    border-radius: 15px;
+    border-radius: 0px;
+    border: 2px solid black;
+    color: skyblue;
+}
+
+.container-admission{
+display: flex;
+}
+.form-control{
+    color: #003BE5;
+}
+
+.row{
+    background-color: rgb(255, 255, 255);
 }

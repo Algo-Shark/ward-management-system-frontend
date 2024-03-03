@@ -20,4 +20,8 @@ label{
 }
 .regInput{
     border-radius: 15px;
+    height: 3.5em;
+}
+.admission{
+    width: 100%;
 }

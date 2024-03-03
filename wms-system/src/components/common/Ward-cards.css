@@ -1,23 +1,23 @@
 .card {
-    width: 150px; /* Set the width of the card */
-    height: 150px; /* Set the height of the card */
-    border: 1px solid #ddd; /* Add border */
-    border-radius: 20px; /* Add border radius */
-    padding: 20px; /* Add padding */
-    display: flex; /* Use flexbox */
-    align-items: center; /* Center items vertically */
+    width: 150px; 
+    height: 150px; 
+    border: 1px solid #ddd; 
+    border-radius: 20px; 
+    padding: 20px; 
+    display: flex; 
+    align-items: center; 
 }
 
 .card-content {
-    display: flex; /* Use flexbox for content */
-    flex-direction: column; /* Arrange content vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    text-align: center; /* Center text */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
 }
 
 h1, h2 {
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 .bar{
     width: 100px;
