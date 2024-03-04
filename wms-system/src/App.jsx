@@ -11,6 +11,7 @@ import PatientAdmission from "./components/pages/patient-admission"
 import Email from "./pages/Email"
 import Otp from './pages/Otp'
 import NewPassword from "./pages/NewPassword"
+import WardsView from './pages/WardsView'
 
 function App() {
  
@@ -19,9 +20,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Login/>}/> 
-        <Route path='/beds' element={<BedView/>}></Route>
+        <Route path='/wards/:ward' element={<BedView/>}></Route>
         <Route path='/admission' element={<PatientAdmission/>}></Route>
         <Route path='/forgot' element={<Email/>}></Route>
+        <Route path='/wards' element={<WardsView/>}></Route>
         <Route path='/otp' element={<Otp/>}></Route>
         <Route path='/newPassword' element={<NewPassword/>}></Route>
         </Routes>

@@ -13,7 +13,9 @@ export default function SideBar() {
     
     return (
         <div className="sidebar-container">
+            <Link to="/">
             <img id="logo-sidebar" src={Image} width="80x" />
+            </Link>
             <div className="sidebar">
                 <div className="properties">
                     <ol className="orderedlist">
@@ -37,9 +39,9 @@ export default function SideBar() {
                         {/* </Link> */}
 
 
-                        {/* <Link to="/wards"> */}
+                        <Link to="/wards">
                             <li className="listedItem"><img src={Wards} width="52px" /></li>
-                        {/* </Link> */}
+                        </Link>
                     </ol>
                 </div>
 
