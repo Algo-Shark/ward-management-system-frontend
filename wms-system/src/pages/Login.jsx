@@ -25,7 +25,12 @@ export default function Login() {
         e.preventDefault()
         Axios.post(url,{username:formData.username,password:formData.password})
         .then((res)=>{
-            //TODO : need to write after the backend is completed
+            if(res===true){
+
+            }
+            else{
+                <p>password is incorrect</p>
+            }
         })
     }
     return (
