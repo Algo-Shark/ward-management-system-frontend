@@ -1,0 +1,70 @@
+.container-otp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin-left:25%
+}
+ 
+.input {
+    width: 40px;
+    border: none;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+    margin: 0 10px;
+    text-align: center;
+    font-size: 36px;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+ 
+.input:focus {
+    border-bottom: 3px solid blue;
+    outline: none;
+}
+ 
+.input:nth-child(1) {
+    cursor: pointer;
+    pointer-events: all;
+}
+
+#heading-content{
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+#para-otp{
+    margin-top: 5%;
+    letter-spacing: 1px;
+    color: rgb(124, 124, 124);
+}
+
+.inputs{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.otp-resend{
+    margin-top: 10%;
+    margin-left: 18%;
+    color: rgb(124, 124, 124);
+    letter-spacing: 1px;
+}
+
+#btn-submit-otp{
+    border: none;
+    margin-top: 10%;
+    border-radius: 25px;
+    width: 320px;
+    height: max-content;
+    padding: 18px 30px;
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: -17%;
+}
+
+#para-resend{
+    cursor: pointer;
+}

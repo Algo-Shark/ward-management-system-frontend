@@ -1,0 +1,60 @@
+.contaiiner-video-forgot{
+    margin: 0;
+    width: 35%;
+    height: 60vw;
+}
+
+
+#video-forgot{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    margin: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.forgot-container{
+    display: flex;
+    font-family: sans-serif;
+
+}
+
+#content-heading{
+    font-weight: 800;
+    letter-spacing: 2px;
+    align-items: center;
+}
+
+#para-forget-password{
+    margin-top: 3%;
+    color: rgb(124, 124, 124);
+    letter-spacing: 1px;
+}
+
+#email-field{
+    margin-top: 5%;
+    padding: 18px 30px;
+    border-radius: 12px;
+    border: 1.3px solid lightgray;
+}
+
+#email-field:hover{
+    border: 1px solid blue;
+}
+
+#btn-submit{
+    border: none;
+    margin-top: 10%;
+    border-radius: 25px;
+    width: 470px;
+    height: max-content;
+    padding: 18px 30px;
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}

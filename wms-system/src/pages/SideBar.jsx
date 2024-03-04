@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 export default function SideBar() {
 
-
+    
     return (
         <div className="sidebar-container">
             <img id="logo-sidebar" src={Image} width="80x" />
