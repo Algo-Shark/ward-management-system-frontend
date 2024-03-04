@@ -73,3 +73,11 @@
     border-radius: 10px;
    }
 }
+
+
+#bed{
+    text-decoration: inherit;
+    color: inherit;
+    width: inherit;
+    height: inherit;
+}

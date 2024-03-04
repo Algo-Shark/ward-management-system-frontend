@@ -4,51 +4,99 @@ export default
         ward: "W1",
         beds: [{
             bed: 1,
-            availability: true
+            availability: true,
+            patient:{
+                name:"kamal",
+                age:20,
+            }
         },
         {
             bed: 2,
-            availability: false
+            availability: false,
+            patient:{
+                name:"nimal",
+                age:20,
+            }
         },
         {
             bed: 3,
-            availability: true
+            availability: true,
+            patient:{
+                name:"sunimal",
+                age:20,
+            }
         },
         {
             bed: 4,
-            availability: false
+            availability: false,
+            patient:{
+                name:"Dashan Nadeema",
+                age:20,
+            }
         },
         {
             bed: 5,
-            availability: true
+            availability: true,
+            patient:{
+                name:"Dashan Nadeema",
+                age:20,
+            }
         },
         {
             bed: 6,
-            availability: false
+            availability: false,
+            patient:{
+                name:"Dashan Nadeema",
+                age:20,
+            }
         },
         {
             bed: 7,
-            availability: false
+            availability: false,
+            patient:{
+                name:"Dashan Nadeema",
+                age:20,
+            }
         },
         {
             bed: 8,
-            availability: true
+            availability: true,
+            patient:{
+                name:"Dashan Nadeema",
+                age:20,
+            }
         },
         {
             bed: 9,
-            availability: false
+            availability: false,
+            patient:{
+                name:"Dashan Nadeema",
+                age:20,
+            }
         },
         {
             bed: 10,
-            availability: true
+            availability: true,
+            patient:{
+                name:"Dashan Nadeema",
+                age:20,
+            }
         },
         {
             bed: 11,
-            availability: true
+            availability: true,
+            patient:{
+                name:"Dashan Nadeema",
+                age:20,
+            }
         },
         {
             bed: 12,
-            availability: false
+            availability: false,
+            patient:{
+                name:"Dashan Nadeema",
+                age:20,
+            }
         }],
         availability:true
     },

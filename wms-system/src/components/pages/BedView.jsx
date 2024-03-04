@@ -7,11 +7,11 @@ import { useParams } from "react-router-dom"
 
 export default function BedView() {
         const {ward}=useParams();
-        
+
         const wardInfo = Data.find((data) => data.ward == ward);
         const beds=wardInfo.beds.map((bed)=>{
             return(
-            <Bed bedNum={bed.bed} available={bed.availability} />
+            <Bed bedNum={bed.bed} available={bed.availability} ward={wardInfo.ward}/>
             )
         })
     return (
@@ -21,7 +21,7 @@ export default function BedView() {
                 {beds}
             </div>
 
-        </div>
+        </div> 
 
     )
-}
+} 

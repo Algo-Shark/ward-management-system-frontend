@@ -12,6 +12,7 @@ import Email from "./pages/Email"
 import Otp from './pages/Otp'
 import NewPassword from "./pages/NewPassword"
 import WardsView from './pages/WardsView'
+import PatientView from './components/pages/PatientView'
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Login/>}/> 
         <Route path='/wards/:ward' element={<BedView/>}></Route>
+        <Route path='/wards/:ward/:bed' element={<PatientView/>}></Route>
         <Route path='/admission' element={<PatientAdmission/>}></Route>
         <Route path='/forgot' element={<Email/>}></Route>
         <Route path='/wards' element={<WardsView/>}></Route>

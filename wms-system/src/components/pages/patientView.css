@@ -1,0 +1,64 @@
+.component-patient-info{
+    display: flex;
+    background-color: #e7e7e9;
+    border: 2px solid blue;
+    
+}
+.container-patient-info{
+    width: 100%;
+
+}
+.container-patient-main{
+    margin-top: 30px;
+}
+
+.name-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 2% 5%;
+    border-radius: 5px;
+    width: 800px; /* need to change for max content */
+    height: max-content;
+    margin-left: 20%;
+    margin-top: 0%;
+}
+
+#link{
+    color: inherit;
+    border: none;
+}
+
+#back-btn-patient-info{
+    margin: 3%;
+}
+
+.ward-number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    padding: 2% 1%;
+    border-radius: 5px;
+    width: 200px; /* need to change for max content */
+    height: max-content;
+    margin-left: 20%;
+    margin-top: 0.3%;
+}
+
+.bed-number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    padding: 2% 1%;
+    border-radius: 5px;
+    width: 200px; /* need to change for max content */
+    height: max-content;
+    margin-left: 20%;
+    margin-top: 0.3%;
+}
