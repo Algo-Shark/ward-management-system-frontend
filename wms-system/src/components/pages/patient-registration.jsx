@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './patient-registration.css'
 import  Axios from 'axios'
+import SideBar from '../../pages/SideBar'
 
 function Registration(){
 
@@ -41,6 +42,9 @@ function Registration(){
     <>
     <div className="container">
       <div className="row">
+        <div className='sidebar-register'>
+        <SideBar/>
+        </div>
         <div className="col-9" id="middleContent">
           <h2 className='pt-5 ps-5' id="patRegTitle">Patient Registration</h2>
           <div className="pt-5 ps-5">

@@ -52,8 +52,8 @@ export default function Login() {
                         <Link to="/forgot">
                         <p id="forgot-password">Forgot password click here</p>
                         </Link>
-                        <Link to="/Dashboard">
-                        <button id="btn-login" onClick={(e)=>submitForm(e)}>Log In</button>
+                        <Link to="/wards">
+                         <button id="btn-login">Log In</button> 
                         </Link>
                     </form>
                 </div>

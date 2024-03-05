@@ -1,0 +1,18 @@
+.wards-view{
+    display: flex;
+}
+
+.container-wards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+
+    height: max-content;
+}
+
+@media (max-width:1360px) {
+    .container-wards{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
