@@ -24,19 +24,19 @@ export default function SideBar() {
                         {/* </Link> */}
 
 
-                        {/* <Link to="/admission"> */}
+                        <Link to="/users">
                             <li className="listedItem"><img src={Admission} /></li>
-                        {/* </Link> */}
+                        </Link>
 
 
-                        {/* <Link to="/staff"> */}
+                        <Link to="/staff">
                             <li className="listedItem"><img src={Staff} width="44px" /></li>
-                        {/* </Link> */}
+                        </Link>
 
 
-                        {/* <Link to="/patient"> */}
+                        <Link to="/patient">
                             <li className="listedItem"><img src={Patients} width="46px" /></li>
-                        {/* </Link> */}
+                        </Link>
 
 
                         <Link to="/wards">
