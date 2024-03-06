@@ -19,9 +19,9 @@ export default function SideBar() {
             <div className="sidebar">
                 <div className="properties">
                     <ol className="orderedlist">
-                        {/* <Link to="/dashBoard"> */}
+                        <Link to="/dashBoard">
                             <li className="listedItem" id="icon-dashboard"><img src={Dashboard} /></li>
-                        {/* </Link> */}
+                        </Link>
 
 
                         <Link to="/users">
