@@ -1,132 +1,130 @@
-#patient-registation-heading{
-    font-family: sans-serif;
-    font-weight: 700;
-    letter-spacing: 2px;
+#patient-registation-heading {
+  font-family: sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
-.contianer-registration{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin: -4.5% 15% 0% 15%;
-    gap: 25px;
-    padding: 5%;
-    background-color: rgb(242, 242, 242);
+.contianer-registration {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: -4.5% 15% 0% 15%;
+  gap: 25px;
+  padding: 5%;
+  background-color: rgb(242, 242, 242);
 }
 
-#patient-registration-para{
-    font-size: 15px;
-    letter-spacing: 2px;
+#patient-registration-para {
+  font-size: 15px;
+  letter-spacing: 2px;
 }
 
-.input-fld{
-    width: 100%;
-    padding: 10px 12px;
-    border: none;
-}
-.input-radio{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+.input-fld {
+  width: 100%;
+  padding: 10px 12px;
+  border: none;
 }
 
-/* Modern Calendar Input Field with Blue Accent and Placeholder */
+.input-radio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
 
-/* Reset default input styles */
+
 input[type="date"] {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    border: none;
-    padding: 8px 12px;
-    font-size: 14px;
-    border-radius: 5px;
-    width: 80%;
-    padding: 10px 12px;
-  }
-  
-  /* Custom styles for the calendar icon */
-  input[type="date"]::-webkit-calendar-picker-indicator {
-    background-color: #007bff; /* Blue accent color */
-    color: white;
-    border: none;
-    padding: 4px;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-  
-  /* Adjust the text color of the input */
-  input[type="date"] {
-    color: #555; /* Adjust text color as needed */
-  }
-  
-  /* Placeholder text */
-  input[type="date"]::placeholder {
-    color: #999; /* Placeholder text color */
-  }
-  
-  /* Optional: Hover effect for calendar icon */
-  input[type="date"]::-webkit-calendar-picker-indicator:hover {
-    background-color: #0056b3; /* Darker shade of blue */
-  }
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  width: 80%;
+  padding: 10px 12px;
+}
 
-  .calender-gender{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-  }
 
-  #link-back{
-    text-decoration: none;
-    padding:3%;
-    color:black;
-  }
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 4px;
+  border-radius: 50%;
+  cursor: pointer;
+}
 
-  .primary-btn{
-    background-color:blue;
-  }
+input[type="date"] {
+  color: #555;
+}
 
-  .btn-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
 
-  .primary-btn{
-    padding: 14px 42.8%;
-    margin-top: 3%;
-    border: none;
-    color: white;
-    font-weight: 600;
-    letter-spacing: 2px;
-  }
+input[type="date"]::placeholder {
+  color: #999;
+}
 
-  #back{
-    margin-left: 2%;
-    text-decoration: underline;
-  }
 
-  .radio-btns{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: -20%;
-    gap: 50px;
-  }
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+  background-color: #0056b3;
+}
 
-  .lbl-radio{
-    display: flex;
-    justify-content: row;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-  }
+.calender-gender {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
 
-.html-for-radio{
+#link-back {
+  text-decoration: none;
+  padding: 3%;
+  color: black;
+}
+
+.primary-btn {
+  background-color: blue;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.primary-btn {
+  padding: 14px 42.8%;
+  margin-top: 3%;
+  border: none;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+#back {
+  margin-left: 2%;
+  text-decoration: underline;
+}
+
+.radio-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20%;
+  gap: 50px;
+}
+
+.lbl-radio {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.html-for-radio {
   color: #999;
 }
