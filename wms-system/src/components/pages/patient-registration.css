@@ -27,7 +27,9 @@
 }
 .input-radio{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
 }
 
@@ -107,3 +109,24 @@ input[type="date"] {
     margin-left: 2%;
     text-decoration: underline;
   }
+
+  .radio-btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20%;
+    gap: 50px;
+  }
+
+  .lbl-radio{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+.html-for-radio{
+  color: #999;
+}

@@ -1,74 +1,84 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './patient-registration.css'
-import  Axios from 'axios'
-import SideBar from '../../pages/SideBar'
+import Axios from 'axios'
 import { Link } from 'react-router-dom'
 
-function Registration(){
+export default function Registration() {
+  const url = "http://localhost:8081/patient/get";
+  const urlPost = "http://localhost:8081/patient/add"
+  const [response, setResponse] = useState({})
 
-  const url=""
-  const [formData,setFormData]=useState({
-    patientId:"",
-    patientName:"",
-    NIC:"",
-    nationality:"",
-    gender:"",
-    telephone:"",
-    religion:"",
-    dob:"",
-    address:""
+
+  const [formData, setFormData] = useState({
+    patientId: response.userId,
+    name: "",
+    nic: "",
+    nationality: "",
+    gender: "",
+    telephone: "",
+    religion: "",
+    address: "",
+    dob: ""
   })
+  useEffect(() => {
+    Axios.get(url)
+      .then((res) => {
+        setResponse(res.data)
+      })
+  }, [submitForm])
 
-
-  function handleChange(e){
-    setFormData((prevState)=>{
-        return{
-          ...prevState,
-          [e.target.name]:e.target.value
-        }
+  function handleChange(e) {
+    setFormData((prevState) => {
+      return {
+        ...prevState,
+        [e.target.name]: e.target.value
+      }
     })
   }
-
-  function submitForm(e){
+  console.log(formData);
+  function submitForm(e) {
     e.preventDefault()
-    Axios.post(url,formData)
-    .then((res)=>{
-      console.log(`${res} hi`);
-    })
+    Axios.post(urlPost, formData)
+      .then((res) => {
+        console.log(res);
+      })
   }
-
-  console.log(formData)
-
   return (
     <>
       <div className='contianer-register'>
         <Link id="link-back" to="/users">
-        <p id='back'>Back</p>
+          <p id='back'>Back</p>
         </Link>
-          <div className='contianer-registration'>
+        <div className='contianer-registration'>
           <h2 id='patient-registation-heading'>Patient Registration</h2>
-            <p id='patient-registration-para'>Fill these information in order to add patient to the database<br></br> where you can addmit patient instantly without a hassel.</p>
-            <input className='input-fld' type='text' placeholder='Enter Patient Full Name'></input>
-            <input className='input-fld' type='text'placeholder='Enter Patient NIC (National identity card number)'></input>
-            <input className='input-fld' type='text' placeholder='Enter Patient Nationality'></input>
-            <input className='input-fld' type='number' placeholder='Enter Patient Telephone Number'></input>
-            <input className='input-fld' type='text'placeholder='Enter Patient Religion'></input>
-            <input className='input-fld' type='text' placeholder='Enter Patient Address'></input>
-            <div className='calender-gender'>
-            <input type='date' placeholder='Enter Patient Date of Birth'></input>
-            <div className='input-radio'> 
-            <input type="radio"/>
-            <input type="radio"/>
-            </div>
-            </div>
-            <div className='btn-container'>
-            <button className='primary-btn'>Save the user</button>
+          <p id='patient-registration-para'>Fill these information in order to add patient to the database<br></br> where you can addmit patient instantly without a hassel.</p>
+          <p>Patient ID : {response.userId}</p>
+          <input className='input-fld' type='text' name='name' placeholder='Enter Patient Full Name' onChange={(e) => handleChange(e)}></input>
+          <input className='input-fld' type='text' name='nic' placeholder='Enter Patient NIC (National identity card number)' onChange={(e) => handleChange(e)}></input>
+          <input className='input-fld' type='text' name='nationality' placeholder='Enter Patient Nationality' onChange={(e) => handleChange(e)}></input>
+          <input className='input-fld' type='number' name='telephone' placeholder='Enter Patient Telephone Number' onChange={(e) => handleChange(e)}></input>
+          <input className='input-fld' type='text' name='religion' placeholder='Enter Patient Religion' onChange={(e) => handleChange(e)}></input>
+          <input className='input-fld' type='text' name='address' placeholder='Enter Patient Address' onChange={(e) => handleChange(e)}></input>
+          <div className='calender-gender'>
+            <input type='date' name='dob' placeholder='Enter Patient Date of Birth' onChange={(e) => handleChange(e)}></input>
+            <div className='input-radio'>
+              <div className='lbl-radio'>
+                <label htmlFor='radio-btn-male' className='html-for-radio'>Male</label>
+                <label htmlFor='radio-btn-female' className='html-for-radio'> Female</label>
+              </div>
+              <div className='radio-btns'>
+                <input type="radio" id='radio-btn-male' name='gender' value="male" onChange={(e) => handleChange(e)} />
+                <input type="radio" id='radio-btn-female' name='gender' value="female" onChange={(e) => handleChange(e)} />
+              </div>
+
             </div>
           </div>
-          
+          <div className='btn-container'>
+            <button className='primary-btn' onClick={(e) => submitForm(e)}>Save the user</button>
+          </div>
+        </div>
+
       </div>
     </>
   );
 };
-
-export default Registration
