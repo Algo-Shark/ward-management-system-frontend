@@ -67,7 +67,7 @@ tr{
 }
 
 #btn-green{
-        margin-top: 1%;
+        margin-top: 3%;
         display: inline-block;
         padding: 0.6em 1.5em; 
         background-color: #84de8a; 
@@ -78,7 +78,7 @@ tr{
         cursor: pointer;
         font-size: 0.9em; 
         transition: background-color 0.3s ease; 
-        margin-bottom: 1%;
+        margin-bottom: 3%;
 }
 
 #btn-green:hover {
@@ -87,7 +87,7 @@ tr{
 
 
 #btn-red{
-    margin-top: 1%;
+    margin-top: 3%;
     display: inline-block;
     padding: 0.6em 1.5em; 
     background-color: #f38686; 
@@ -98,7 +98,7 @@ tr{
     cursor: pointer;
     font-size: 0.9em; 
     transition: background-color 0.3s ease; 
-    margin-bottom: 1%;
+    margin-bottom: 3%;
 }
 
 #btn-red:hover {

@@ -1,12 +1,14 @@
-import React, { useEffect, useState } from 'react'
-import './patient-registration.css'
-import Axios from 'axios'
-import { Link } from 'react-router-dom'
+import React, { useEffect, useState } from 'react';
+import './patient-registration.css';
+import Axios from 'axios';
+import { Link, useNavigate } from 'react-router-dom';
+
 
 export default function Registration() {
   const url = "http://localhost:8081/patient/get";
-  const urlPost = "http://localhost:8081/patient/add"
+  const urlPost = "http://localhost:8081/patient/add";
   const [response, setResponse] = useState({})
+  const navigate = useNavigate();
 
 
   const [formData, setFormData] = useState({
@@ -35,12 +37,20 @@ export default function Registration() {
       }
     })
   }
-  console.log(formData);
+
   function submitForm(e) {
     e.preventDefault()
     Axios.post(urlPost, formData)
       .then((res) => {
-        console.log(res);
+        if (res.status === 200) {
+          Axios.post(`http://localhost:8081/api/qrcode/generate/${response.userId}`)
+          .then((res)=>{
+            navigate('/qr',res);
+          })
+          
+        } else {
+          navigate('/');
+        }
       })
   }
   return (

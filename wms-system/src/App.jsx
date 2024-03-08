@@ -14,6 +14,7 @@ import NewPassword from "./pages/NewPassword"
 import WardsView from './pages/WardsView'
 import PatientView from './components/pages/PatientView'
 import Patients from './pages/Patients'
+import Qr from './pages/Qr'
 
 function App() {
  
@@ -30,6 +31,7 @@ function App() {
         <Route path='/wards' element={<WardsView/>}></Route>
         <Route path='/otp' element={<Otp/>}></Route>
         <Route path='/newPassword' element={<NewPassword/>}></Route>
+        <Route path='/qr' element={<Qr/>}></Route>
         </Routes>
     </BrowserRouter> 
     </>
