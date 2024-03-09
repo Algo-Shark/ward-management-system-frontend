@@ -1,0 +1,9 @@
+.primary-btn-submit{
+    background-color: blue;
+    color: white;
+    padding: 14px 37.6%;
+    border: none;
+    border-radius: 7px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}

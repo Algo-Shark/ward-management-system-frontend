@@ -34,7 +34,7 @@ export default function SideBar() {
                         </Link>
 
 
-                        <Link to="/patient">
+                        <Link to="/er">
                             <li className="listedItem"><img src={Patients} width="46px" /></li>
                         </Link>
 
