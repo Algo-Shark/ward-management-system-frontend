@@ -22,7 +22,7 @@ export default function PatientView() {
                     </Link>
                 </div>
                 <div className="heading-image">
-                    <video id="image-heading" src={video} width="800px" height="100px" autoPlay muted loop/>
+                    <video id="image-heading" src={video} width="800px" height="100px" autoPlay muted loop />
                 </div>
                 <div className="name-container">
                     <h3 id="patient-name">Dashan Nadeema Wickramasuriya</h3>

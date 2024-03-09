@@ -6,22 +6,22 @@ import Data from "../../../../Data";
 import { useParams } from "react-router-dom"
 
 export default function BedView() {
-        const {ward}=useParams();
+    const { ward } = useParams();
 
-        const wardInfo = Data.find((data) => data.ward == ward);
-        const beds=wardInfo.beds.map((bed)=>{
-            return(
-            <Bed bedNum={bed.bed} available={bed.availability} ward={wardInfo.ward}/>
-            )
-        })
+    const wardInfo = Data.find((data) => data.ward == ward);
+    const beds = wardInfo.beds.map((bed) => {
+        return (
+            <Bed bedNum={bed.bed} available={bed.availability} ward={wardInfo.ward} />
+        )
+    })
     return (
         <div className="row-1">
-            <SideBar/>            
+            <SideBar />
             <div className="container-beds col-10">
                 {beds}
             </div>
 
-        </div> 
+        </div>
 
     )
 } 

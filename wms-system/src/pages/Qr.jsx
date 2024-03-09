@@ -6,7 +6,7 @@ export default function Qr() {
         <div className="qr-container">
             <div className="qr-code-container">
                 <div className="qr-content">
-                    <img src=""/>
+                    <img src="" />
                 </div>
                 <p>hi</p>
             </div>

@@ -1,14 +1,15 @@
-.component-patient-info{
+.component-patient-info {
     display: flex;
     background-color: #e7e7e9;
 }
-.container-patient-info{
+
+.container-patient-info {
     width: 100%;
     margin-top: -1.5%;
 }
 
 
-.name-container{
+.name-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,26 +17,26 @@
     background-color: white;
     padding: 2% 5%;
     border-radius: 5px;
-    width: 800px; 
+    width: 800px;
     height: max-content;
     margin-left: 20%;
     margin-top: 0%;
-    -webkit-box-shadow: 0px 2px 33px 1px rgba(150,148,150,0.75);
-    -moz-box-shadow: 0px 2px 33px 1px rgba(150,148,150,0.75);
-    box-shadow: 0px 2px 33px 1px rgba(150,148,150,0.75);
-    
+    -webkit-box-shadow: 0px 2px 33px 1px rgba(150, 148, 150, 0.75);
+    -moz-box-shadow: 0px 2px 33px 1px rgba(150, 148, 150, 0.75);
+    box-shadow: 0px 2px 33px 1px rgba(150, 148, 150, 0.75);
+
 }
 
-#link{
+#link {
     color: inherit;
     border: none;
 }
 
-#back-btn-patient-info{
+#back-btn-patient-info {
     margin: 3%;
 }
 
-.ward-number{
+.ward-number {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,17 +44,18 @@
     background-color: white;
     padding: 2% 1%;
     border-radius: 5px;
-    width: 398px; /* need to change for max content */
+    width: 398px;
+    /* need to change for max content */
     height: max-content;
     margin-left: 20%;
     margin-top: 0.3%;
-    -webkit-box-shadow: 0px 2px 33px 1px rgba(150,148,150,0.75);
-    -moz-box-shadow: 0px 2px 33px 1px rgba(150,148,150,0.75);
-    box-shadow: 0px 2px 33px 1px rgba(150,148,150,0.75);
+    -webkit-box-shadow: 0px 2px 33px 1px rgba(150, 148, 150, 0.75);
+    -moz-box-shadow: 0px 2px 33px 1px rgba(150, 148, 150, 0.75);
+    box-shadow: 0px 2px 33px 1px rgba(150, 148, 150, 0.75);
 
 }
 
-.bed-number{
+.bed-number {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,29 +63,29 @@
     background-color: white;
     padding: 2% 1%;
     border-radius: 5px;
-    width: 398px; 
+    width: 398px;
     height: max-content;
     margin-top: 0.3%;
     margin-left: 0.3%;
-    -webkit-box-shadow: 0px 2px 33px 1px rgba(150,148,150,0.75);
-    -moz-box-shadow: 0px 2px 33px 1px rgba(150,148,150,0.75);
-    box-shadow: 0px 50px 33px 1px rgba(150,148,150,0.75);
+    -webkit-box-shadow: 0px 2px 33px 1px rgba(150, 148, 150, 0.75);
+    -moz-box-shadow: 0px 2px 33px 1px rgba(150, 148, 150, 0.75);
+    box-shadow: 0px 50px 33px 1px rgba(150, 148, 150, 0.75);
 
 }
 
-#patient-name{
+#patient-name {
     font-family: sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
 }
 
 
-.secondary-container{
+.secondary-container {
     display: flex;
     flex-direction: row;
 }
 
-.patient-age{
+.patient-age {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,13 +93,13 @@
     background-color: white;
     padding: 2% 1%;
     border-radius: 5px;
-    width: 265px; 
+    width: 265px;
     height: max-content;
     margin-top: 0.3%;
     margin-left: 0.3%;
 }
 
-.patient-gender{
+.patient-gender {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,14 +107,14 @@
     background-color: white;
     padding: 2% 1%;
     border-radius: 5px;
-    width: 265px; 
+    width: 265px;
     height: max-content;
     margin-top: 0.3%;
     margin-left: 0.3%;
 
 }
 
-.patient-nationality{
+.patient-nationality {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,19 +122,19 @@
     background-color: white;
     padding: 2% 1%;
     border-radius: 5px;
-    width: 263px; 
+    width: 263px;
     height: max-content;
     margin-top: 0.3%;
     margin-left: 0.3%;
 }
 
-.personal-info{
+.personal-info {
     display: flex;
     flex-direction: row;
     margin-left: 19.8%;
 }
 
-.heading-diagonosis{
+.heading-diagonosis {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -140,16 +142,16 @@
     background-color: white;
     padding: 2% 1%;
     border-radius: 5px;
-    width: 800px; 
+    width: 800px;
     height: max-content;
     margin-top: 0.3%;
     margin-left: 20%;
-    -webkit-box-shadow: 0px 2px 33px 1px rgba(150,148,150,0.75);
-    -moz-box-shadow: 0px 2px 33px 1px rgba(150,148,150,0.75);
-    box-shadow: 0px 2px 33px 1px rgba(150,148,150,0.75);
+    -webkit-box-shadow: 0px 2px 33px 1px rgba(150, 148, 150, 0.75);
+    -moz-box-shadow: 0px 2px 33px 1px rgba(150, 148, 150, 0.75);
+    box-shadow: 0px 2px 33px 1px rgba(150, 148, 150, 0.75);
 }
 
-.heading-medication{
+.heading-medication {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -157,36 +159,36 @@
     background-color: white;
     padding: 2% 1%;
     border-radius: 5px;
-    width: 800px; 
+    width: 800px;
     height: max-content;
     margin-top: 0.3%;
     margin-left: 20%;
-    -webkit-box-shadow: 0px 2px 33px 1px rgba(150,148,150,0.75);
-    -moz-box-shadow: 0px 2px 33px 1px rgba(150,148,150,0.75);
-    box-shadow: 0px 2px 33px 1px rgba(150,148,150,0.75);
+    -webkit-box-shadow: 0px 2px 33px 1px rgba(150, 148, 150, 0.75);
+    -moz-box-shadow: 0px 2px 33px 1px rgba(150, 148, 150, 0.75);
+    box-shadow: 0px 2px 33px 1px rgba(150, 148, 150, 0.75);
 }
 
-#image-heading{
+#image-heading {
     object-fit: cover;
 }
 
-.heading-image{
+.heading-image {
     margin-left: 20%;
     object-fit: cover;
     border-radius: 10px;
 }
 
-#image-heading{
+#image-heading {
     border-radius: 8px;
     margin-bottom: 0;
 }
 
-.para-patient-view{
+.para-patient-view {
     font-size: 16px;
     color: #979798;
 }
 
-.info{
+.info {
     font-size: 18px;
     font-family: sans-serif;
     letter-spacing: 1px;

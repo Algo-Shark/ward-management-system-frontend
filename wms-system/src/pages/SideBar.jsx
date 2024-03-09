@@ -10,11 +10,11 @@ import { Link } from "react-router-dom";
 
 export default function SideBar() {
 
-    
+
     return (
         <div className="sidebar-container">
             <Link to="/">
-            <img id="logo-sidebar" src={Image} width="80x" />
+                <img id="logo-sidebar" src={Image} width="80x" />
             </Link>
             <div className="sidebar">
                 <div className="properties">

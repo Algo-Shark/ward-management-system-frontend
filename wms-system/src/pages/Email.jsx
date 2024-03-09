@@ -12,9 +12,9 @@ export default function Email() {
             <div className="content">
                 <h1 id="content-heading">Forgot password</h1>
                 <p id="para-forget-password">No worries enter your email address and we will share a reset link</p>
-                <input id="email-field" type="text" placeholder="Enter your email"/>
+                <input id="email-field" type="text" placeholder="Enter your email" />
                 <Link to="/otp">
-                <button id="btn-submit">Submit</button>
+                    <button id="btn-submit">Submit</button>
                 </Link>
             </div>
         </div>

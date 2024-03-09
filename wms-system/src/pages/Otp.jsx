@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function Otp() {
 
-    function resendOtp(){
+    function resendOtp() {
         console.log("hi")
     }
     return (
@@ -23,19 +23,19 @@ export default function Otp() {
                     <input class="input" type="text"
                         inputmode="numeric" maxlength="1" placeholder="*" />
                     <input class="input" type="text"
-                        inputmode="numeric" maxlength="1" placeholder="*"/>
+                        inputmode="numeric" maxlength="1" placeholder="*" />
                     <input class="input" type="text"
-                        inputmode="numeric" maxlength="1" placeholder="*"/>
+                        inputmode="numeric" maxlength="1" placeholder="*" />
                     <input class="input" type="text"
-                        inputmode="numeric" maxlength="1" placeholder="*"/>
+                        inputmode="numeric" maxlength="1" placeholder="*" />
                 </div>
                 <div className="otp-resend">
                     <p id="para-resend" onClick={resendOtp}>Resend OTP click here</p>
                     <Link to="/newPassword">
-                    <button id="btn-submit-otp">Submit</button>
+                        <button id="btn-submit-otp">Submit</button>
                     </Link>
                 </div>
-                
+
             </div>
         </div>
     )

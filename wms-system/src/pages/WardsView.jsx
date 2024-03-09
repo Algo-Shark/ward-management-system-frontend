@@ -4,15 +4,15 @@ import Wards from "../components/common/Wards";
 import "./wardsView.css"
 import Data from "../../../Data";
 
-export default function WardsView(){
-    const data=Data.map((data)=>{
-        return(
-        <Wards key={data.ward} availability={data.availability} ward={data.ward}/>
+export default function WardsView() {
+    const data = Data.map((data) => {
+        return (
+            <Wards key={data.ward} availability={data.availability} ward={data.ward} />
         )
     })
-    return(
+    return (
         <div className="row-1">
-            <SideBar/>            
+            <SideBar />
             <div className="container-wards col-10">
                 {data}
             </div>

@@ -1,12 +1,12 @@
-.container-otp{
+.container-otp {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: flex-start;
     min-height: 100vh;
-    margin-left:25%
+    margin-left: 25%
 }
- 
+
 .input {
     width: 40px;
     border: none;
@@ -17,41 +17,41 @@
     cursor: not-allowed;
     pointer-events: none;
 }
- 
+
 .input:focus {
     border-bottom: 3px solid blue;
     outline: none;
 }
- 
+
 .input:nth-child(1) {
     cursor: pointer;
     pointer-events: all;
 }
 
-#heading-content{
+#heading-content {
     font-weight: 800;
     letter-spacing: 2px;
 }
 
-#para-otp{
+#para-otp {
     margin-top: 5%;
     letter-spacing: 1px;
     color: rgb(124, 124, 124);
 }
 
-.inputs{
+.inputs {
     margin-top: 10%;
     margin-left: 10%;
 }
 
-.otp-resend{
+.otp-resend {
     margin-top: 10%;
     margin-left: 18%;
     color: rgb(124, 124, 124);
     letter-spacing: 1px;
 }
 
-#btn-submit-otp{
+#btn-submit-otp {
     border: none;
     margin-top: 10%;
     border-radius: 25px;
@@ -65,6 +65,6 @@
     margin-left: -17%;
 }
 
-#para-resend{
+#para-resend {
     cursor: pointer;
 }

@@ -1,4 +1,4 @@
-.container-beds{
+.container-beds {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
@@ -6,19 +6,19 @@
     height: max-content;
 }
 
-.bedview-container{
+.bedview-container {
     display: flex;
     flex-direction: row;
 }
 
 @media (max-width:1360px) {
-    .container-beds{
+    .container-beds {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
-.row-1{
+.row-1 {
     display: flex;
     flex-direction: row;
 }

@@ -3,40 +3,40 @@ import Video from "../assets/img/video.mp4"
 import Image from "../assets/img/Logo.png"
 import "./Login.css"
 import { Link } from "react-router-dom";
-import  Axios  from "axios";
+import Axios from "axios";
 
 
 export default function Login() {
-    const url=""
-    const [formData,setFormData]=useState({
-        username:"",
-        password:""
+    const url = ""
+    const [formData, setFormData] = useState({
+        username: "",
+        password: ""
     })
 
-    function handleChange(e){
-        setFormData((prevState)=>{
-            return{
+    function handleChange(e) {
+        setFormData((prevState) => {
+            return {
                 ...prevState,
-                [e.target.name]:e.target.value
+                [e.target.name]: e.target.value
             }
         })
     }
-    function submitForm(e){
+    function submitForm(e) {
         e.preventDefault()
-        Axios.post(url,{username:formData.username,password:formData.password})
-        .then((res)=>{
-            if(res===true){
+        Axios.post(url, { username: formData.username, password: formData.password })
+            .then((res) => {
+                if (res === true) {
 
-            }
-            else{
-                <p>password is incorrect</p>
-            }
-        })
+                }
+                else {
+                    <p>password is incorrect</p>
+                }
+            })
     }
     return (
         <div className="container-login">
             <video id="image-login" src={Video} width="400px" autoPlay muted loop />
-            
+
             <div className="content-login">
                 <div className="heading-login">
                     <h1 id="heading-login-main">Panadura Nursing Home</h1>
@@ -46,14 +46,14 @@ export default function Login() {
                 <div className="form-content">
                     <form id="login-form">
                         <label htmlFor="username">Username</label>
-                        <input className="input-login" type="text" placeholder="Email or Phone" required name="username" onChange={(e)=>handleChange(e)} />
+                        <input className="input-login" type="text" placeholder="Email or Phone" required name="username" onChange={(e) => handleChange(e)} />
                         <label htmlFor="password">Password</label>
-                        <input className="input-login" type="password" placeholder="Password" required name="password" onChange={(e)=>handleChange(e)}/>
+                        <input className="input-login" type="password" placeholder="Password" required name="password" onChange={(e) => handleChange(e)} />
                         <Link to="/forgot">
-                        <p id="forgot-password">Forgot password click here</p>
+                            <p id="forgot-password">Forgot password click here</p>
                         </Link>
                         <Link to="/wards">
-                         <button id="btn-login">Log In</button> 
+                            <button id="btn-login">Log In</button>
                         </Link>
                     </form>
                 </div>

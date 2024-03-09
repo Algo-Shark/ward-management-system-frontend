@@ -9,7 +9,7 @@ import Happy from "../assets/img/Happy.png"
 import Sad from "../assets/img/Sad.png"
 import Crying from "../assets/img/Crying.png"
 import Angry from "../assets/img/Angry.png"
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function dashBoard() {
@@ -18,7 +18,7 @@ export default function dashBoard() {
         const month = date.toLocaleString('default', { month: 'long' });
         const year = date.getFullYear();
 
-        
+
         const getDaySuffix = (day) => {
             if (day >= 11 && day <= 13) {
                 return "th";
@@ -86,19 +86,19 @@ export default function dashBoard() {
                                 </div>
                                 <div className="bottom-container-one-container-two">
                                     <div className="register">
-                                    <h5>R</h5>
-                                    <h5>E</h5>
-                                    <h5>G</h5>
-                                    <h5>I</h5>
-                                    <h5>S</h5>
-                                    <h5>T</h5>
-                                    <h5>E</h5>
-                                    <h5>R</h5>
-                                    <Link to="/users/add">
-                                    <button id="btn">Register Patient</button>
-                                    </Link>
+                                        <h5>R</h5>
+                                        <h5>E</h5>
+                                        <h5>G</h5>
+                                        <h5>I</h5>
+                                        <h5>S</h5>
+                                        <h5>T</h5>
+                                        <h5>E</h5>
+                                        <h5>R</h5>
+                                        <Link to="/users/add">
+                                            <button id="btn">Register Patient</button>
+                                        </Link>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                             <div className="bottom-cotainer-second">

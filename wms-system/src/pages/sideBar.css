@@ -1,4 +1,4 @@
-.sidebar-container{
+.sidebar-container {
     display: flex;
     flex-direction: column;
     background-color: #2910D4;
@@ -7,22 +7,22 @@
 }
 
 
-.orderedlist{
+.orderedlist {
     list-style: none;
 }
 
-.listedItem{
+.listedItem {
     margin-left: 15%;
     margin-top: 70%;
 }
 
-.properties{
+.properties {
     display: flex;
     flex-direction: column;
     color: white;
 }
 
-.sidebar{
+.sidebar {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -30,11 +30,11 @@
 
 }
 
-#logo-sidebar{
+#logo-sidebar {
     margin-top: 10%;
     margin-left: 25%;
 }
 
-#icon-dashboard{
+#icon-dashboard {
     margin-top: 3%;
 }
