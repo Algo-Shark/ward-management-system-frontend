@@ -52,7 +52,7 @@ export default function Login() {
                         <Link to="/forgot">
                             <p id="forgot-password">Forgot password click here</p>
                         </Link>
-                        <Link to="/wards">
+                        <Link to="/dashboard">
                             <button id="btn-login">Log In</button>
                         </Link>
                     </form>

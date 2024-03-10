@@ -11,8 +11,11 @@ import Crying from "../assets/img/Crying.png"
 import Angry from "../assets/img/Angry.png"
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import Axios  from "axios";
 
 export default function dashBoard() {
+    const [count,setCount]=useState("0");
+
     const formatDate = (date) => {
         const day = date.getDate();
         const month = date.toLocaleString('default', { month: 'long' });
@@ -46,6 +49,10 @@ export default function dashBoard() {
         }, 50000);
         return () => clearInterval(interval);
     }, []);
+    useEffect(()=>{
+        Axios.get("http://localhost:8081/doctor/count")
+        .then((res)=>{setCount(res.data.userId)})
+    },[])
     return (
         <div className="dashboar-main-container">
             <div className="container-dashboard-start">
@@ -70,7 +77,7 @@ export default function dashBoard() {
                             <div className="count" id="doctor">
                                 <img src={Doctor} alt="patient" />
                                 <p className="count-data">Doctors</p>
-                                <h3 className="count-value">12</h3>
+                                <h3 className="count-value">{count}</h3>
                             </div>
                             <div className="count" id="staff">
                                 <img src={Nurse} alt="patient" />
