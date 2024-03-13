@@ -12,7 +12,7 @@ export default
         },
         {
             bed: 2,
-            availability: false,
+            availability: true,
             patient:{
                 name:"nimal",
                 age:20,
@@ -28,7 +28,7 @@ export default
         },
         {
             bed: 4,
-            availability: false,
+            availability: true,
             patient:{
                 name:"Dashan Nadeema",
                 age:20,
@@ -44,7 +44,7 @@ export default
         },
         {
             bed: 6,
-            availability: false,
+            availability: true,
             patient:{
                 name:"Dashan Nadeema",
                 age:20,
@@ -155,7 +155,7 @@ export default
                 availability: false
             }
         ],
-        availability:false
+        availability:true
     },
 
     {
@@ -210,7 +210,7 @@ export default
                 availability: false
             }
         ],
-        availability:false
+        availability:true
     },
 
     {
@@ -265,7 +265,7 @@ export default
                 availability: false
             }
         ],
-        availability:false
+        availability:true
     },
 
     {
@@ -375,8 +375,169 @@ export default
                 availability: false
             }
         ],
-        availability:false
+        availability:true
+    },
+    {
+        ward: "W6",
+        beds: [
+            {
+                bed: 13,
+                availability: true
+            },
+            {
+                bed: 14,
+                availability: false
+            },
+            {
+                bed: 15,
+                availability: true
+            },
+            {
+                bed: 16,
+                availability: false
+            },
+            {
+                bed: 17,
+                availability: true
+            },
+            {
+                bed: 18,
+                availability: false
+            },
+            {
+                bed: 19,
+                availability: false
+            },
+            {
+                bed: 20,
+                availability: true
+            },
+            {
+                bed: 21,
+                availability: false
+            },
+            {
+                bed: 22,
+                availability: true
+            },
+            {
+                bed: 23,
+                availability: true
+            },
+            {
+                bed: 24,
+                availability: false
+            }
+        ],
+        availability:true
+    },
+    {
+        ward: "W6",
+        beds: [
+            {
+                bed: 13,
+                availability: true
+            },
+            {
+                bed: 14,
+                availability: false
+            },
+            {
+                bed: 15,
+                availability: true
+            },
+            {
+                bed: 16,
+                availability: false
+            },
+            {
+                bed: 17,
+                availability: true
+            },
+            {
+                bed: 18,
+                availability: false
+            },
+            {
+                bed: 19,
+                availability: false
+            },
+            {
+                bed: 20,
+                availability: true
+            },
+            {
+                bed: 21,
+                availability: false
+            },
+            {
+                bed: 22,
+                availability: true
+            },
+            {
+                bed: 23,
+                availability: true
+            },
+            {
+                bed: 24,
+                availability: false
+            }
+        ],
+        availability:true
+    },
+    {
+        ward: "W6",
+        beds: [
+            {
+                bed: 13,
+                availability: true
+            },
+            {
+                bed: 14,
+                availability: false
+            },
+            {
+                bed: 15,
+                availability: true
+            },
+            {
+                bed: 16,
+                availability: false
+            },
+            {
+                bed: 17,
+                availability: true
+            },
+            {
+                bed: 18,
+                availability: false
+            },
+            {
+                bed: 19,
+                availability: false
+            },
+            {
+                bed: 20,
+                availability: true
+            },
+            {
+                bed: 21,
+                availability: false
+            },
+            {
+                bed: 22,
+                availability: true
+            },
+            {
+                bed: 23,
+                availability: true
+            },
+            {
+                bed: 24,
+                availability: false
+            }
+        ],
+        availability:true
     }
-
 
 ]

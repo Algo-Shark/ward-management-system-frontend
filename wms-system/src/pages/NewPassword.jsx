@@ -15,7 +15,7 @@ export default function NewPassword() {
                     <p id="para-create-new-password">Creating a new password is easy.<br></br> Enter the new password you want to create<br></br> and repeat it.</p>
                     <input id="password-entry" className="input-login" type="password" placeholder="Password" />
                     <input className="input-login" type="password" placeholder="Verify Password" required name="password" />
-                    <Link to="/Dashboard">
+                    <Link to="/">
                         <button id="btn-login">Proceed</button>
                     </Link>
                 </form>

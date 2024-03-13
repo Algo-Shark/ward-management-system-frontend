@@ -1,51 +1,51 @@
 export default [
     {
         id:"P001",
-        name:"Nimal Babaa",
+        name:"Nimal",
         nationality:"Colombo",
         gender:"male",
         status:false
     },{
         id:"P002",
-        name:"Hi Babaa",
+        name:"kamal",
         nationality:"Colombo",
         gender:"male",
         status:true
     },{
         id:"P003",
-        name:"H Baba",
+        name:"Sunimal",
         nationality:"Colombo",
-        gender:"male",
+        gender:"female",
         status:true
     },{
         id:"P004",
-        name:"Hibaa ihihi",
+        name:"pawan",
         nationality:"Colombo",
         gender:"male",
         status:false
     },{
         id:"P005",
-        name:"Ha ihihi",
+        name:"Nimal",
         nationality:"Colombo",
-        gender:"male",
+        gender:"female",
         status:true
     },{
         id:"P006",
-        name:"hihi hahaha",
+        name:"sunil",
         nationality:"Colombo",
         gender:"male",
         status:false
     },{
         id:"P006",
-        name:"hihi hahaha",
+        name:"sonal",
         nationality:"Colombo",
         gender:"male",
         status:true
     },{
         id:"P007",
-        name:"hihi hahaha",
+        name:"kalum",
         nationality:"Colombo",
-        gender:"male",
+        gender:"female",
         status:false
     }
 ]

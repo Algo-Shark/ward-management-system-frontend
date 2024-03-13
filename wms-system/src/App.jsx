@@ -12,6 +12,7 @@ import Patients from './pages/Patients'
 import Qr from './pages/Qr'
 import Er from './pages/Er'
 import DashBoard from './pages/DashBoard'
+import Admit from './pages/Admit'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
           <Route path='/qr' element={<Qr />}></Route>
           <Route path='/er' element={<Er />}></Route>
           <Route path='/dashBoard' element={<DashBoard />}></Route>
+          <Route path='/admit' element={<Admit/>}></Route>
         </Routes>
       </BrowserRouter>
     </>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import SideBar from "./SideBar";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./patients.css"
 import Search from "../assets/img/Search .png"
 import Users from "../../../Users";
@@ -8,10 +8,10 @@ import Axios from "axios";
 
 export default function Patient() {
     const [admit, setAdmit] = useState(false)
+    const navigate=useNavigate();
 
     function admitPatient() {
-
-        // Axios.post()
+        navigate("/admit")
     }
 
     const users = Users.map((user) => {
@@ -21,7 +21,10 @@ export default function Patient() {
                 <td>{user.name}</td>
                 <td>{user.nationality}</td>
                 <td>{user.gender}</td>
-                <td><button id={user.status === true ? "btn-green" : "btn-red"} onClick={user.status === true && admitPatient}>{user.status === true ? "Available" : "Admitted"}</button></td>
+                <td><button id={user.status === true ? "btn-green" : "btn-red"} onClick={user.status === true && admitPatient}
+                
+                
+                >{user.status === true ? "Available" : "Admitted"}</button></td>
             </tr>
         )
     })
@@ -36,7 +39,6 @@ export default function Patient() {
                         <button id="btn-add-patients" >Add</button>
                     </Link>
                 </div>
-
                 <table>
                     <thead>
                         <tr>

@@ -21,12 +21,12 @@ export default function Login() {
             }
         })
     }
+    
     function submitForm(e) {
         e.preventDefault()
         Axios.post(url, { username: formData.username, password: formData.password })
             .then((res) => {
                 if (res === true) {
-
                 }
                 else {
                     <p>password is incorrect</p>
@@ -53,7 +53,7 @@ export default function Login() {
                             <p id="forgot-password">Forgot password click here</p>
                         </Link>
                         <Link to="/dashboard">
-                            <button id="btn-login">Log In</button>
+                            <button id="btn-login">Log In</button>  
                         </Link>
                     </form>
                 </div>
@@ -63,3 +63,5 @@ export default function Login() {
 
     )
 }
+
+//todo: add button click after sprinng security is completed !

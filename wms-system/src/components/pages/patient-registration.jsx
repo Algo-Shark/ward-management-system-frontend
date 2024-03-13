@@ -46,7 +46,7 @@ export default function Registration() {
           Axios.post(`http://localhost:8081/api/qrcode/generate/${response.userId}`)
             .then((res) => {
               console.log(res)
-              navigate('/qr', res);
+              navigate('/qr');
             })
 
         } else {
