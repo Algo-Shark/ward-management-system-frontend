@@ -98,7 +98,7 @@ export default
                 age:20,
             }
         }],
-        availability:true
+        availability:false
     },
 
 
@@ -429,7 +429,7 @@ export default
                 availability: false
             }
         ],
-        availability:true
+        availability:false
     },
     {
         ward: "W6",
@@ -537,7 +537,7 @@ export default
                 availability: false
             }
         ],
-        availability:true
+        availability:false
     }
 
 ]

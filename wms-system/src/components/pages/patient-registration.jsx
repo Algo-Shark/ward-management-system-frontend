@@ -85,7 +85,7 @@ export default function Registration() {
             </div>
           </div>
           <div className='btn-container'>
-            <button className='primary-btn' onClick={(e) => submitForm(e)}>Save the user</button>
+            <button className='primary-btn' onClick={(e) => submitForm(e)}>Save Patient</button>
           </div>
         </div>
 
