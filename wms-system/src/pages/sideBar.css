@@ -1,0 +1,40 @@
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #2910D4;
+    height: 61vw;
+    width: 10%;
+}
+
+
+.orderedlist {
+    list-style: none;
+}
+
+.listedItem {
+    margin-left: 15%;
+    margin-top: 70%;
+}
+
+.properties {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+
+}
+
+#logo-sidebar {
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+#icon-dashboard {
+    margin-top: 3%;
+}

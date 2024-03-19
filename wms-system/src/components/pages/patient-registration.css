@@ -1,0 +1,135 @@
+#patient-registation-heading {
+  font-family: sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.contianer-registration {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: -4.5% 15% 0% 15%;
+  gap: 25px;
+  padding: 5%;
+  background-color: rgb(242, 242, 242);
+}
+
+#patient-registration-para {
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.input-fld {
+  width: 100%;
+  padding: 10px 12px;
+  border: none;
+}
+
+.input-radio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+
+input[type="date"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px 12px;
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 4px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="date"] {
+  color: #555;
+}
+
+
+input[type="date"]::placeholder {
+  color: #999;
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+  background-color: #0056b3;
+}
+
+.calender-gender {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#link-back {
+  text-decoration: none;
+  padding: 3%;
+  color: black;
+}
+
+.primary-btn {
+  background-color: blue;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.primary-btn {
+  padding: 14px 42.8%;
+  margin-top: 3%;
+  border: none;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-radius: 7px;
+}
+
+#back {
+  margin-left: 2%;
+  text-decoration: underline;
+}
+
+.radio-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20%;
+  gap: 50px;
+}
+
+.lbl-radio {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.html-for-radio {
+  color: #999;
+}
+
+#link-register {
+  width: 100%;
+}

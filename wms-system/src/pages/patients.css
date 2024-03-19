@@ -1,0 +1,118 @@
+.container-patient {
+    display: flex;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #a9a8a8;
+}
+
+th {
+    background-color: #becefb;
+    color: #666;
+}
+
+tr:hover {
+    background-color: #bfc1e2c6;
+}
+
+tr {
+    padding: 5%;
+}
+
+.input-fields-patient {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container-patient-table {
+    margin-left: 15%;
+    margin-top: 5%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#txt-fld-search {
+    padding: 10px 15px;
+    width: 45%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border: 1px solid rgb(128, 127, 127);
+}
+
+#btn-add-patients {
+    margin-bottom: 5%;
+    padding: 1.5% 4%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    background-color: blue;
+    border: none;
+}
+
+#btn-green {
+    margin-top: 3%;
+    display: inline-block;
+    padding: 0.6em 1.5em;
+    background-color: #84de8a;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #4CAF50;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+    margin-bottom: 3%;
+}
+
+#btn-green:hover {
+    background-color: #45a049;
+}
+
+
+#btn-red {
+    margin-top: 3%;
+    display: inline-block;
+    padding: 0.6em 1.5em;
+    background-color: #f38686;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #970101;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+    margin-bottom: 3%;
+}
+
+#btn-red:hover {
+    background-color: rgb(103, 15, 15);
+}
+
+#link {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    size: inherit;
+    margin-left: auto;
+    width: inherit;
+    height: inherit;
+}
